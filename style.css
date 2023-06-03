@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    font-family: 'Inter';
+}
+
+#menu-superior {
+    width: 100%;
+    height: 475px;
+    background-color: #303030;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+    #titulo-menusuperior {
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 72px;
+        margin-left: 62px;
+        margin-top: 206px;
+        margin-bottom: 20px;
+
+        color: #FFFFFF;
+    }
+
+    #texto-menusuperior {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+        margin-left: 62px;
+
+        color: #FFFFFF;
+    }
+
+#menu-informacional {
+    width: 100%;
+    height: 229px;
+    background: #F9F9F9;
+}
+
+    #informacoes {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        padding-top: 96px;
+    }
+
+    .texto-maior {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 28px;
+    }
+
+    .texto-menor {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+#secao-foto {
+    width: 100%;
+    height: 800px;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+    #titulo-foto {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 20px;
+        margin-top: 300px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    #texto-foto {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        
+        margin-top: 50px;
+    }
+
+#formulario {
+    width: 100%;
+    height: 638px;
+    background-color: #303030;
+}
+
+    #secao-formulario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #texto-formulario {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 150%;
+        margin-top: 87px;
+        margin-bottom: 48px;
+
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    input {
+        width: 500px;
+        height: 70px;
+        margin-bottom: 60px;
+        padding-left: 30px;
+
+        border: 0px;
+        border-radius: 10px;
+    }
+
+    input::placeholder { 
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        
+        color: rgba(0, 0, 0, 0.3);
+    }
+
+    button {
+        width: 286px;
+        height: 74px;
+
+        background: #C07212;
+        border-radius: 10px;
+        border: 0px;
+
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        color: #FFFFFF;
+
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #e99024;
+        box-shadow: 0px 15px 20px #9b601c8f;
+        transform: translateY(-7px);
+        transition-duration: 0.5s;
+    }
